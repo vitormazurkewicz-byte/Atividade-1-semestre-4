@@ -19,7 +19,7 @@ public class Exercicio9 {
 
             if (codigo == codigos[i]) {
 
-                System.out.printf("preco do produto: r$ %.2f%n", precos[i]);
+                System.out.printf("preco do produto: $:", precos[i]);
 
                 encontrado = true;
 
