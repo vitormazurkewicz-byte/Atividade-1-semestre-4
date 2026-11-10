@@ -8,7 +8,7 @@ public class tete3 {
         double soma = 0;
 
         for (int i = 0; i < 4; i++) {
-            System.out.print("Informe a " + (i + 1) + "ª nota: ");
+            System.out.print("Informe a " + (i + 1) + " nota: ");
             notas[i] = sc.nextDouble();
             soma += notas[i];
         }
