@@ -7,11 +7,11 @@ public class Exercicio9 {
         double precos[] = {4.50, 12.00, 7.90, 25.00, 3.20};
         int codigo;
         boolean encontrado = false;
-        System.out.println("digite o codigo do produto:");
+        System.out.println("digite o codigo do produto: ");
         codigo = sc.nextInt();
         for (int i = 0; i < codigos.length; i++) {
             if (codigo == codigos[i]) {
-                System.out.printf("preco do produto: $:", precos[i]);
+                System.out.printf("preco do produto: : ", precos[i]);
                 encontrado = true;
                 break;
             }
