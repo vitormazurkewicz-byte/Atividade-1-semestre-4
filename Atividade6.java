@@ -13,7 +13,7 @@ public class Exercicio6 {
         taxa = sc.nextDouble();
         for (int i = 0; i < valores.length; i++) {
             valores[i] = valor + valor * taxa / 100 * (i + 1);
-            System.out.printf("mes %d: r$ %.2f%n", (i + 1), valores[i]);
+            System.out.printf("mes : ", (i + 1), valores[i]);
         }
         sc.close();
     }
