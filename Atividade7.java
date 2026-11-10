@@ -25,16 +25,15 @@ public class Exercicio7 {
                 menor = salarios[i];
             }
         }
-
         media = soma / salarios.length;
         for (int i = 0; i < salarios.length; i++) {
             if (salarios[i] > media) {
                 acimaMedia++;
             }
         }
-        System.out.printf("maior salario: r$ %.2f%n", maior);
-        System.out.printf("menor salario: r$ %.2f%n", menor);
-        System.out.printf("media salarial: r$ %.2f%n", media);
+        System.out.printf("maior salario: ", maior);
+        System.out.printf("menor salario: ", menor);
+        System.out.printf("media salarial: ", media);
         System.out.println("funcionarios acima da media: " + acimaMedia);
         sc.close();
     }
