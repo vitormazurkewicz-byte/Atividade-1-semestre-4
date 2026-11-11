@@ -14,10 +14,10 @@ public class tete5 {
         }
 
         while (g < 5){
-            System.out.println("o " + (g + 1) + " produto , o valor é " + notas[g]);
+            System.out.println("o " + (g + 1) + " produto / valor: " + notas[g]);
             g++;
         }
-        System.out.println("a Soma total: " + soma);
+        System.out.println("Soma total: " + soma);
 
 
         sc.close();
