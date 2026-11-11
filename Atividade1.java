@@ -11,7 +11,7 @@ public class tete2 {
         }
         media = soma / notas.length;
 
-        System.out.println("A soma das notas é" + soma + " a primeira nota é " + notas[0] + " a ultima nota é " + notas[3]);
+        System.out.println("soma das notas: " + soma + " a primeira nota:  " + notas[0] + " a ultima nota: " + notas[3]);
 
     }
 }
