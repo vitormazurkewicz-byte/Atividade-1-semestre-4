@@ -11,7 +11,7 @@ public class Exercicio7 {
         double menor = 0;
         int acimaMedia = 0;
         for (int i = 0; i < salarios.length; i++) {
-            System.out.println("digite o salario do funcionario:");
+            System.out.println("digite o salario: ");
             salarios[i] = sc.nextDouble();
             soma += salarios[i];
             if (i == 0) {
@@ -31,10 +31,10 @@ public class Exercicio7 {
                 acimaMedia++;
             }
         }
-        System.out.printf("maior salario: ", maior);
-        System.out.printf("menor salario: ", menor);
-        System.out.printf("media salarial: ", media);
-        System.out.println("funcionarios acima da media: " + acimaMedia);
+        System.out.printf("maior: ", maior);
+        System.out.printf("menor: ", menor);
+        System.out.printf("media: ", media);
+        System.out.println("acima da media: " + acimaMedia);
         sc.close();
     }
 }
