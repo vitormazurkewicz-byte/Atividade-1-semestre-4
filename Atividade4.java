@@ -13,10 +13,10 @@ public class tete4 {
         }
 
         if ((soma / notas.length) >= 6) {
-            System.out.println("aprovado com media maior ou igual a 6");
+            System.out.println("aprovado com media 6");
         }
         else  {
-            System.out.println("reprovado abaicho da media.");
+            System.out.println("reprovado.");
         }
 
         sc.close();
