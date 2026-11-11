@@ -12,10 +12,8 @@ public class Exercicio8 {
         int reprovados = 0;
 
         for (int i = 0; i < notas.length; i++) {
-
-            System.out.println("digite a nota do aluno:");
+            System.out.println("nota:");
             notas[i] = sc.nextDouble();
-
             if (notas[i] >= 6) {
                 aprovados++;
             } else if (notas[i] >= 4) {
@@ -24,11 +22,9 @@ public class Exercicio8 {
                 reprovados++;
             }
         }
-
-        System.out.println("alunos aprovados: " + aprovados);
-        System.out.println("alunos em recuperacao: " + recuperacao);
-        System.out.println("alunos reprovados: " + reprovados);
-
+        System.out.println("aprovados: " + aprovados);
+        System.out.println("recuperacao: " + recuperacao);
+        System.out.println("reprovados: " + reprovados);
         sc.close();
     }
 }
