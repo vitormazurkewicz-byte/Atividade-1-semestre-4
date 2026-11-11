@@ -8,12 +8,12 @@ public class tete3 {
         double soma = 0;
 
         for (int i = 0; i < 4; i++) {
-            System.out.print("Informe a " + (i + 1) + " nota: ");
+            System.out.print("informe a " + (i + 1) + " nota: ");
             notas[i] = sc.nextDouble();
             soma += notas[i];
         }
 
-        System.out.println("A média é " + (soma / notas.length));
+        System.out.println("A media: " + (soma / notas.length));
         sc.close();
     }
 }
